@@ -1,0 +1,54 @@
+body {
+    background-image: url("elegant.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width : 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 50px;
+    background-image: url("Ye.jpeg");
+    background-size: cover;
+    color: #13fc17;
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background-color: #13fc17;
+    color: #d309a1;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+input[type="submit"]:hover {
+    background-color: #d309a1;
+    color: #13fc17;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin: 10px 0;
+}
